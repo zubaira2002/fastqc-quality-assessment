@@ -1,6 +1,6 @@
-# fastqc-quality-assessment
+# 🧬 FastQC Quality Assessment
 
-### 🧬 Project Overview
+### 📖 Project Overview
 
 This project performs **quality assessment of sequencing data** using the **FastQC** tool.  
 It analyzes `.fastq` files and generates detailed reports on sequence quality, GC content, adapter contamination, and other metrics.
@@ -17,25 +17,8 @@ conda activate fastqc_env
 fastqc sample_small.fastq -o results/
 
 # 3. View the report
-open results/sample_small_fastqc.html ---
-
-Теперь шаги 👇  
-
-### 🔹 Шаг 1.
-Поставь курсор **в самый конец** этого текста — после последней строки  
-`open results/sample_small_fastqc.html`  
-
-### 🔹 Шаг 2.
-Нажми **Enter** (чтобы спуститься на новую строку).
-
-### 🔹 Шаг 3.
-Скопируй и вставь **вот этот блок целиком** ↓
-
----
-
-```markdown
----
-
+open results/sample_small_fastqc.html
+```
 ### 📊 Output
 
 After running FastQC, two files are generated in the `results/` folder:
